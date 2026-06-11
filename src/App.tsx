@@ -26,7 +26,7 @@ function App() {
         <Skills />
         <Projects />
         <Showcase />
-        <VibeCoder />
+        {/* <VibeCoder /> */}
         <Contact />
       </main>
       <Footer />
