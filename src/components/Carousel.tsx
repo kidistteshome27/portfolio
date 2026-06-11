@@ -56,8 +56,9 @@ export default function Carousel({ items, autoPlayMs = 6000, className = '' }: C
         type="button"
         className="carousel__arrow carousel__arrow--prev"
         onClick={prev}
-        aria-label="Previous slide"
+        aria-label="Previous"
       >
+        <span className="carousel__arrow-label">Prev</span>
         <ChevronLeft size={22} />
       </button>
 
@@ -86,9 +87,10 @@ export default function Carousel({ items, autoPlayMs = 6000, className = '' }: C
         type="button"
         className="carousel__arrow carousel__arrow--next"
         onClick={next}
-        aria-label="Next slide"
+        aria-label="Next"
       >
         <ChevronRight size={22} />
+        <span className="carousel__arrow-label">Next</span>
       </button>
 
       <div className="carousel__footer">

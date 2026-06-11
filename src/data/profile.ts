@@ -32,11 +32,11 @@ export const skills = [
 
 export const projects = [
   {
-    title: 'Blush UI Playground',
+    title: 'VELORA E-Commerce',
     description:
-      'Interactive mini design-system demo — 4 feminine themes, live button variants, palette copy, and micro-interactions. Built as a GitHub showcase project.',
-    tech: ['React', 'TypeScript', 'Framer Motion', 'Design System'],
-    github: 'https://github.com/kidistteshome27/portfolio',
+      'Creative e-commerce storefront — VELORA brand built with Vite, JavaScript, and Tailwind CSS. Product browsing with a polished, modern UI.',
+    tech: ['JavaScript', 'Vite', 'Tailwind CSS', 'E-commerce'],
+    github: 'https://github.com/kidistteshome27/E-commerce',
     gitlab: null,
     year: '2026',
     featured: true,
@@ -44,41 +44,31 @@ export const projects = [
   {
     title: 'Designer Portfolio',
     description:
-      'This portfolio — built with React, Vite, and Framer Motion. Features a Vibe Coder playground, Blush UI showcase, and a feminine creative design system.',
-    tech: ['React', 'TypeScript', 'Vite', 'Framer Motion'],
+      'This portfolio — React, Vite, Framer Motion, feminine design system, Blush UI showcase, and Netlify deployment.',
+    tech: ['React', 'TypeScript', 'Vite', 'Netlify'],
     github: 'https://github.com/kidistteshome27/portfolio',
     gitlab: 'https://gitlab.aii.et/',
     year: '2026',
     featured: true,
   },
   {
-    title: 'AII GitLab Projects',
+    title: 'Blush UI Playground',
     description:
-      'Course and collaborative projects hosted on the AII self-managed GitLab instance — front-end modules, team repos, and DevOps workflows.',
-    tech: ['GitLab', 'CI/CD', 'React', 'Team Projects'],
-    github: null,
-    gitlab: 'https://gitlab.aii.et/',
-    year: '2025',
+      'Interactive mini design-system demo — 4 themes, live button variants, palette copy, and micro-interactions.',
+    tech: ['React', 'TypeScript', 'Framer Motion', 'Design System'],
+    github: 'https://github.com/kidistteshome27/blush-ui-playground',
+    gitlab: null,
+    year: '2026',
     featured: true,
   },
   {
-    title: 'UI/UX Case Studies',
+    title: 'AII GitLab Projects',
     description:
-      'Figma-to-code design explorations — wireframes, prototypes, and interface studies. More case studies coming as projects go public on GitHub.',
-    tech: ['Figma', 'UI/UX', 'Prototyping'],
-    github: 'https://github.com/kidistteshome27',
-    gitlab: null,
-    year: '2026',
-    featured: false,
-  },
-  {
-    title: 'Open Source Contributions',
-    description:
-      'Tracking experiments and contributions on GitHub. Follow my profile for upcoming front-end and design-system repos.',
-    tech: ['Git', 'GitHub', 'Open Source'],
-    github: 'https://github.com/kidistteshome27',
+      'Private course and team projects on the AII GitLab instance — front-end modules, CI/CD, and collaborative workflows.',
+    tech: ['GitLab', 'React', 'Team Projects'],
+    github: null,
     gitlab: 'https://gitlab.aii.et/',
-    year: '2026',
+    year: '2025',
     featured: false,
   },
 ]

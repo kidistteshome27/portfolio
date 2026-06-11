@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import FairyLogo from './FairyLogo'
 import { profile } from '../data/profile'
 
 const links = [
   { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
+  { href: '#work', label: 'Work' },
   { href: '#showcase', label: 'Showcase' },
   { href: '#vibe-coder', label: 'Vibe Coder' },
   { href: '#contact', label: 'Contact' },
@@ -30,7 +32,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <nav className="navbar__inner container">
         <a href="#" className="navbar__logo" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}>
-          <span className="navbar__logo-mark">K</span>
+          <FairyLogo size={30} className="navbar__logo-fairy" />
           <span className="navbar__logo-text">idist</span>
         </a>
 

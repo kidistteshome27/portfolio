@@ -4,8 +4,8 @@ import Marquee from './components/Marquee'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import WorkShowcase from './components/WorkShowcase'
 import Showcase from './components/Showcase'
-import VibeCoder from './components/VibeCoder'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import FloatingDecor from './components/FloatingDecor'
@@ -25,6 +25,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <WorkShowcase />
         <Showcase />
         {/* <VibeCoder /> */}
         <Contact />
